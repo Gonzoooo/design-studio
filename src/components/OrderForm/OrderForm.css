@@ -1,0 +1,23 @@
+.order {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0 0 0;
+}
+
+.order__container {
+    border: 2px solid red;
+}
+
+.order-from {
+    display: flex;
+    flex-direction: column;
+}
+
+.order__img {
+    border: 2px solid yellow;
+    background-image: url("../../assets/img/orderImg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 570px;
+    height: 511px;
+}

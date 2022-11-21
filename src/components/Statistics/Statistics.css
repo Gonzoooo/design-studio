@@ -1,0 +1,50 @@
+.statistics {
+    height: 254px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: 60px auto;
+    border: 2px solid yellow;
+}
+
+.statistics__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 3% 0 0 5%;
+}
+
+.statistic__info {
+    display: flex;
+}
+
+.info-section {
+    border-right: 1px solid #C7C7C7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-section:last-of-type {
+    border-right: none;
+}
+
+.info-section h3 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 35px 0 3px;
+}
+
+.info-section p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}

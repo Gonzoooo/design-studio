@@ -1,0 +1,78 @@
+.introduction {
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    color: #333333;
+    border: 2px solid green;
+}
+
+.introduction__container {
+    border: 1px solid red;
+}
+
+.introduction__header {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 65px;
+    margin: 0;
+}
+
+.introduction__header_two {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 65px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.introduction__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.introduction__buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.introduction__button {
+    font-family: 'Manrope', sans-serif;
+    height: 54px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #77B2D3;
+    border-radius: 250px;
+    padding: 0 30px;
+    white-space: nowrap;
+}
+
+.introduction__img {
+    width: 573px;
+    height: 325px;
+    background-image: url("../../assets/img/introdutionImg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 1303px) {
+    .introduction {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .introduction__img {
+        display: none;
+    }
+}

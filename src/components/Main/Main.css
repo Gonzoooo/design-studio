@@ -1,0 +1,7 @@
+.main {
+    background-color: rgba(243, 241, 254, 1);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 115px;
+}
