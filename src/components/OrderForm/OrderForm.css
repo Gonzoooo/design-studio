@@ -1,23 +1,97 @@
 .order {
-    display: flex;
-    justify-content: space-between;
-    margin: 90px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 90px 0 0 0;
+  padding: 0;
 }
 
 .order__container {
-    border: 2px solid red;
+  max-width: 570px;
+}
+
+.order__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333333;
 }
 
 .order-from {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-from p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.order-from__input {
+  width: 270px;
+  height: 59px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  padding: 0 0 0 19px;
+  margin: 0 30px 20px 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.order-from__textarea {
+  border: none;
+  width: 570px;
+  height: 141px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  padding: 16px 0 0 19px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.order-from__input:last-of-type {
+  margin: 0;
 }
 
 .order__img {
-    border: 2px solid yellow;
-    background-image: url("../../assets/img/orderImg.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 570px;
-    height: 511px;
+  background-image: url('../../assets/img/orderImg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 570px;
+  height: 511px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.order-from__label {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.checkbox-order {
+  width: 35px;
+  height: 35px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+  margin: 0 12px 0 0;
+}
+
+@media screen and (max-width: 1398px) {
+  .order {
+    justify-content: center;
+  }
+
+  .order-from {
+    margin-bottom: 20px;
+  }
 }

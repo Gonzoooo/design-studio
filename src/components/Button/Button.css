@@ -1,13 +1,14 @@
 .button {
-    border: none;
-    width: 205px;
-    height: 54px;
-    background: linear-gradient(115.11deg, #F32C6D 10.12%, #CB1D95 100.01%);
-    border-radius: 9px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Manrope', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
+  border: none;
+  width: 205px;
+  height: 54px;
+  background: linear-gradient(115.11deg, #f32c6d 10.12%, #cb1d95 100.01%);
+  border-radius: 9px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
 }

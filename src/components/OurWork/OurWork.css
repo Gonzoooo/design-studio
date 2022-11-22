@@ -1,0 +1,98 @@
+.our-work {
+  position: relative;
+  padding: 81px 0 90px 0;
+}
+
+.our-work__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.our-work__items {
+  display: flex;
+  gap: 30px;
+}
+
+.our-work__item {
+  max-width: 570px;
+  background: #ffffff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  padding: 25px 0;
+}
+
+.company-info,
+.systems {
+  padding: 0 28px;
+}
+
+.result {
+  padding: 21px 27px 25px;
+  background-color: rgba(243, 241, 254, 1);
+  box-sizing: border-box;
+}
+
+.result__items {
+  display: flex;
+  gap: 34px;
+}
+
+.result__item {
+  max-width: 184px;
+}
+
+.result__item h4,
+p {
+  margin: 10px 0;
+  font-style: normal;
+  line-height: 26px;
+  color: #333333;
+}
+
+.result__item h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.result__item p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.result__header {
+  margin: 0;
+}
+
+.our-work__btn {
+  position: absolute;
+  top: 50%;
+  background-image: url('../../assets/img/workBtn.svg');
+  width: 19px;
+  height: 34px;
+  border: none;
+  cursor: pointer;
+}
+
+.our-work__btn:first-of-type {
+  left: -32px;
+}
+
+.our-work__btn:last-of-type {
+  transform: rotate(180deg);
+  right: -32px;
+}
+
+@media screen and (max-width: 1398px) {
+  .our-work__header {
+    text-align: center;
+  }
+
+  .our-work__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
