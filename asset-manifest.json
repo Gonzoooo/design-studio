@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/design-studio/static/css/main.68937d72.css",
+    "main.js": "/design-studio/static/js/main.c8861c9d.js",
+    "static/media/logo.svg": "/design-studio/static/media/logo.5b5e964790a2c330eda805335c2feb51.svg",
+    "static/media/workGoogleAdwordsLogo.svg": "/design-studio/static/media/workGoogleAdwordsLogo.931ecb8d28b823ab7c2669fdeef124ed.svg",
+    "static/media/workYandexDirectLogo.svg": "/design-studio/static/media/workYandexDirectLogo.7273ad7e15b0814bc254aafd9c7a4c13.svg",
+    "static/media/introdutionImg.svg": "/design-studio/static/media/introdutionImg.77c2d03c0f2c36a65bd8.svg",
+    "static/media/orderImg.svg": "/design-studio/static/media/orderImg.6161981479ff13d02768.svg",
+    "static/media/workAlibabaLogo.svg": "/design-studio/static/media/workAlibabaLogo.03a0ead5e19c16078335a23ab7b09e6c.svg",
+    "static/media/checkMark.svg": "/design-studio/static/media/checkMark.aa3328b39505c5346967.svg",
+    "index.html": "/design-studio/index.html",
+    "static/media/workBtn.svg": "/design-studio/static/media/workBtn.9dd38db8fb3381a58f7a.svg",
+    "main.68937d72.css.map": "/design-studio/static/css/main.68937d72.css.map",
+    "main.c8861c9d.js.map": "/design-studio/static/js/main.c8861c9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68937d72.css",
+    "static/js/main.c8861c9d.js"
+  ]
+}
